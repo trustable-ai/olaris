@@ -52,7 +52,7 @@ if test -z "$VERSION"
 then echo "cannot determine version from $OPSROOT - exiting"
      exit 1
 fi
-FILE="openserverless-cli_${VERSION}$SUFFIX$EXT"
+FILE="ops-cli_${VERSION}$SUFFIX$EXT"
 URL="https://github.com/trustable-ai/ops-cli/releases/download/v$VERSION/$FILE"
 
 mkdir -p ~/.local/bin
@@ -120,7 +120,7 @@ if (-not $VERSION) {
     Write-Host "Cannot determine version from $OPSROOT - exiting"
     exit 1
 }
-$FILE = "openserverless-cli_${VERSION}$SUFFIX$EXT"
+$FILE = "ops-cli_${VERSION}$SUFFIX$EXT"
 $URL = "https://github.com/trustable-ai/ops-cli/releases/download/v$VERSION/$FILE"
 
 # Create the directory if it doesn't exist
